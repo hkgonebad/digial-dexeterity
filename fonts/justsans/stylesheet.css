@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'JUST Sans ExBold';
+    src: url('JUSTSans-ExBd.woff2') format('woff2'),
+        url('JUSTSans-ExBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JUST Sans';
+    src: url('JUSTSans-Lt.woff2') format('woff2'),
+        url('JUSTSans-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JUST Sans';
+    src: url('JUSTSans-Bd.woff2') format('woff2'),
+        url('JUSTSans-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JUST Sans';
+    src: url('JUSTSans-Md.woff2') format('woff2'),
+        url('JUSTSans-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JUST Sans';
+    src: url('JUSTSans-Rg.woff2') format('woff2'),
+        url('JUSTSans-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JUST Sans';
+    src: url('JUSTSans-SmBd.woff2') format('woff2'),
+        url('JUSTSans-SmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

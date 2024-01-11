@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.64" height="57.417" viewBox="0 0 34.64 57.417">
+  <defs>
+    <filter id="Path_4869">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1204" data-name="Group 1204" transform="translate(-267.006 -6815.271)">
+    <g data-type="innerShadowGroup">
+      <path id="Path_4869-2" data-name="Path 4869" d="M45.42,36.377A17.32,17.32,0,1,0,62.74,53.7,17.315,17.315,0,0,0,45.42,36.377Zm0,33.3a15.9,15.9,0,1,1,15.9-15.9A15.9,15.9,0,0,1,45.42,69.673Zm0-30.29A14.394,14.394,0,1,0,59.814,53.776,14.4,14.4,0,0,0,45.42,39.382Zm-14.552,3.48V13.6l2.689,1.265v25.15A18.238,18.238,0,0,0,30.868,42.862ZM45.42,35.586a17.964,17.964,0,0,0-10.677,3.48V15.577l10.439,5.062L56.1,15.5V39.066A17.964,17.964,0,0,0,45.42,35.586Zm11.863,4.429V14.944l2.689-1.265V42.941A15.766,15.766,0,0,0,57.283,40.015Z" transform="translate(238.906 6801.671)" fill="#efefef"/>
+      <g transform="matrix(1, 0, 0, 1, 267.01, 6815.27)" filter="url(#Path_4869)">
+        <path id="Path_4869-3" data-name="Path 4869" d="M45.42,36.377A17.32,17.32,0,1,0,62.74,53.7,17.315,17.315,0,0,0,45.42,36.377Zm0,33.3a15.9,15.9,0,1,1,15.9-15.9A15.9,15.9,0,0,1,45.42,69.673Zm0-30.29A14.394,14.394,0,1,0,59.814,53.776,14.4,14.4,0,0,0,45.42,39.382Zm-14.552,3.48V13.6l2.689,1.265v25.15A18.238,18.238,0,0,0,30.868,42.862ZM45.42,35.586a17.964,17.964,0,0,0-10.677,3.48V15.577l10.439,5.062L56.1,15.5V39.066A17.964,17.964,0,0,0,45.42,35.586Zm11.863,4.429V14.944l2.689-1.265V42.941A15.766,15.766,0,0,0,57.283,40.015Z" transform="translate(-28.1 -13.6)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="L2" transform="translate(285.006 6860.27)" fill="#c8c8c8" font-size="16" font-family="JioType-Bold, JioType" font-weight="700" letter-spacing="-0.01em"><tspan x="-9.208" y="0">L2</tspan></text>
+  </g>
+</svg>

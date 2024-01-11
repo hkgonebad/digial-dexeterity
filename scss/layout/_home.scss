@@ -1,0 +1,223 @@
+// Home List
+.middleBlock{
+    min-height: 80vh;
+    align-items: center;
+    display: flex;
+}
+
+.homeList{
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+
+    .row{
+        gap: 15px;
+    }
+
+    .hlBox{
+        background: #E5E5E5;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        height: 250px;
+        min-width: 200px;
+        cursor: pointer;
+        transition: all ease-in-out 250ms;
+
+        img{
+            height: 80px;
+
+        }
+
+        h4{
+            font-size: 16px;
+            text-transform: uppercase;
+            margin: 15px 0 0;
+            font-weight: 600;
+        }
+
+        &:hover{
+            background: #fff;
+        }
+    }
+}
+
+
+// Home Slider
+.homeSlider{
+    margin: 0px 0 0px !important;
+
+    .item{
+
+        img{
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+
+    .slick-dots{
+        bottom: 15px;
+
+        li{
+            width: auto;
+            height: auto;
+
+            button{
+                background: $teal;
+                width: 30px;
+                height: 3px;
+                padding: 0;
+
+                &:after{
+                    display: none;
+                }
+            }
+
+            &.slick-active{
+                button{
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+// Pie Chart
+.chartDetails{
+
+    .navArrows{
+		position: relative;
+		z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px 0;
+
+		@include media-breakpoint-down(md){
+			
+		}
+
+		.nextMs, .prevMs{
+            position: relative;
+			color: $primary;
+            font-size: 15px;
+
+            i{
+                
+            }
+
+			@include media-breakpoint-down(md){
+				
+			}
+		}
+	}
+}
+
+.chartCarousel{
+
+    .item{
+        &:not(:last-child){
+            .pcBox{
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+.pcBox{
+    @extend .card, .card-body;
+    border-color: #e1e1e1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+    .pcChart{
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .pieChart{
+            position: relative;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            .pie{
+                position: relative;
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                svg{
+
+                    circle{
+                        stroke: $danger;
+                    }
+                }
+
+                h3{
+                    position: absolute;
+                    height: 83px;
+                    width: 83px;
+                    background: #fff;
+                    top: 19px;
+                    left: 19px;
+                    border-radius: 50%;
+                    font-size: 15px;
+                    padding-top: 20px;
+                }
+            }
+        }
+
+        .pcData{
+            flex: 1;
+
+            h4{
+                font-size: 16px;
+                margin-bottom: 4px;
+                color: $primary;
+            }
+
+            p{
+                font-size: 13px;
+                margin: 0;
+            }
+        }
+
+        &.primary{
+            .pieChart svg circle{
+                stroke: $primary;
+            }
+        }
+        &.secondary{
+            .pieChart svg circle{
+                stroke: $secondary;
+            }
+        }
+        &.danger{
+            .pieChart svg circle{
+                stroke: $danger;
+            }
+        }
+        &.warning{
+            .pieChart svg circle{
+                stroke: $warning;
+            }
+        }
+        &.info{
+            .pieChart svg circle{
+                stroke: $info;
+            }
+        }
+    }
+
+    small{
+        display: block;
+        margin-top: 8px;
+        font-size: 11px;
+        font-weight: 400;
+    }
+}

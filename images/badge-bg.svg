@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="327.676" height="65.169" viewBox="0 0 327.676 65.169">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eb1e79"/>
+      <stop offset="1" stop-color="#760f3d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.58" x2="1" y2="0.58" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dd1e75"/>
+      <stop offset="1" stop-color="#09173e"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1226" data-name="Group 1226" transform="translate(172.482 -8462)">
+    <path id="Path_4855" data-name="Path 4855" d="M0,0,15.271,27.227,0,53.472H33.436V0Z" transform="translate(-172.482 8473.696)" fill="url(#linear-gradient)"/>
+    <path id="Path_4856" data-name="Path 4856" d="M0,53.472,15.271,26.245,0,0H33.436V53.472Z" transform="translate(155.194 8527.169) rotate(180)" fill="#791b5b"/>
+    <rect id="Rectangle_414" data-name="Rectangle 414" width="278.24" height="57" transform="translate(-147.568 8462)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_415" data-name="Rectangle 415" width="272.24" height="51" transform="translate(-144.568 8465)" fill="#f4ebe4"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.64" height="57.417" viewBox="0 0 34.64 57.417">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d40025"/>
+      <stop offset="1" stop-color="#6a0013"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1202" data-name="Group 1202" transform="translate(-314.012 -6744.271)">
+    <path id="Path_4867" data-name="Path 4867" d="M45.42,36.377A17.32,17.32,0,1,0,62.74,53.7,17.315,17.315,0,0,0,45.42,36.377Zm0,33.3a15.9,15.9,0,1,1,15.9-15.9A15.9,15.9,0,0,1,45.42,69.673Zm0-30.29A14.394,14.394,0,1,0,59.814,53.776,14.4,14.4,0,0,0,45.42,39.382Zm-14.552,3.48V13.6l2.689,1.265v25.15A18.238,18.238,0,0,0,30.868,42.862ZM45.42,35.586a17.964,17.964,0,0,0-10.677,3.48V15.577l10.439,5.062L56.1,15.5V39.066A17.964,17.964,0,0,0,45.42,35.586Zm11.863,4.429V14.944l2.689-1.265V42.941A15.766,15.766,0,0,0,57.283,40.015Z" transform="translate(285.912 6730.671)" fill="url(#linear-gradient)"/>
+    <text id="L3" transform="translate(332.012 6789.27)" fill="#fff" font-size="16" font-family="JioType-Bold, JioType" font-weight="700" letter-spacing="-0.01em"><tspan x="-9.208" y="0">L3</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,140 @@
+aside{
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: $leftBarWidth;
+
+    background-image: url('../img/bg/waves.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .togglearrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -20px;
+        z-index: 9;
+    
+        .btn {
+            background: $primary;
+            border: 0;
+            cursor: pointer;
+            animation: shadow-pulse 1s infinite;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            padding: 0;
+            color: #fff;
+            line-height: 50px;
+    
+            &:focus {
+                border: 0;
+                outline: none;
+            }
+        }
+    }
+}
+
+.leftSideBar{
+    position: relative;
+    height: 100vh;
+    padding: 15px 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 30px;
+    overflow-x: hidden;
+
+    .waves {
+        background: url('../img/bg/waves.jpg') repeat-x;
+        position: absolute;
+        left: 0;
+        top: 0px;
+        width: 7680px;
+        height: 100%;
+        -webkit-animation: wave 30s cubic-bezier(.36,.45,.63,.53) infinite;
+        animation: wave 30s cubic-bezier(.36,.45,.63,.53) infinite;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+
+    .logo{
+        display: block;
+        padding: 15px 0 15px;
+        margin-bottom: 15px;
+        position: relative;
+
+        img{
+            // height: 120px;
+        }
+    }
+
+    .leftNav{
+        margin-top: 30px;
+        position: relative;
+        overflow-y: auto;
+        height: 100%;
+
+        .lnItems{
+            display: flex;
+            flex-flow: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            gap: 30px;
+
+            a{
+                color: #ffffff;
+                font-size: 20px;
+                opacity: 0.9;
+                font-weight: 500;
+                position: relative;
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    background: #fff;
+                    height: 3px;
+                    width: 0px;
+                    opacity: 0;
+                    transition: all ease-in-out 250ms;
+                }
+
+                &:hover, &.active {
+                    opacity: 1;
+    
+                    &:after {
+                        opacity: 1;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+}
+
+
+
+@-webkit-keyframes wave {
+    0% {
+        margin-left: 0
+    }
+
+    100% {
+        margin-left: -1920px
+    }
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0
+    }
+
+    100% {
+        margin-left: -1920px
+    }
+}
